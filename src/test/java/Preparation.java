@@ -6,7 +6,7 @@ public class Preparation {
     public static void setUp() {
         com.codeborne.selenide.Configuration.browserSize = "1920 x 1080";
         com.codeborne.selenide.Configuration.pageLoadStrategy = "eager";
-        com.codeborne.selenide.Configuration.holdBrowserOpen = true;
+        com.codeborne.selenide.Configuration.holdBrowserOpen = false;
         Configuration.timeout = 5000;
 
     }
